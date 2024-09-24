@@ -334,9 +334,9 @@
                                        TextAlignment="Center" />
                         </Grid>
                         <StackPanel>
-                            <TextBlock Text="It's lonely here..." FontSize="17" TextAlignment="Center" />
+                            <TextBlock Text="It's lonely here..." FontSize="17" TextAlignment="Center" Foreground="{DynamicResource textSelected}" />
                             <TextBlock Text="Go ahead and add a server by either creating or importing one"
-                                       FontSize="17" TextAlignment="Center" TextWrapping="Wrap" Width="400" />
+                                       FontSize="17" TextAlignment="Center" TextWrapping="Wrap" Width="400" Foreground="{DynamicResource textSelected}" />
                         </StackPanel>
                         <DockPanel LastChildFill="False">
                             <Border DockPanel.Dock="Left" CornerRadius="10" Margin="20" Width="260">
@@ -390,7 +390,7 @@
             </Grid>
         </DockPanel>
         <Grid Panel.ZIndex="1" x:Name="DeleteServerOverlay" Visibility="Collapsed">
-            <Rectangle Fill="#1F2234" Opacity="0.9" Margin="-5 0 0 0" />
+            <Rectangle Fill="#282828" Opacity="0.9" Margin="-5 0 0 0" />
             <StackPanel Panel.ZIndex="1" VerticalAlignment="Center">
                 <TextBlock Text="Delete Server" FontSize="28" FontFamily="{DynamicResource Montserrat-Bold}"
                            TextAlignment="Center" Foreground="{DynamicResource buttonBgrRed}" Margin="0 0 0 20" />
