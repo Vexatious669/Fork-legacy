@@ -27,7 +27,7 @@ public class ServerSettings
     {
         Default,
         Flat,
-        Large_biomess,
+        Large_biomes,
         Amplified,
         Buffet
     }
